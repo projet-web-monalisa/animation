@@ -1,0 +1,47 @@
+<?php
+
+	class danceuse
+	{
+		private $id;
+		private $nomd;
+		private $image;
+
+
+		public function __construct($idd,$nomd,$imaged){
+		$this->idd=$idd;
+		$this->nomd=$nomd;
+		$this->imaged=$imaged;
+	
+	}
+		
+public function get_idd()
+		{
+			return $this->idd;
+		}
+
+		public function set_idd($idd)
+		{
+			$this->idd = $idd;
+		}
+
+
+		public function get_nomd()
+		{
+			return $this->nomd;
+		}
+
+		public function set_nomd($nomd)
+		{
+			$this->nomd = $nomd;
+		}
+	
+		public function get_imaged(){return $this->imaged;}
+
+		public function set_imaged($imaged)
+		{
+			$this->imaged = $imaged;
+		}
+	
+
+	}
+?>
